@@ -2,7 +2,7 @@
 
 - This repository is only to test git and github
 
-###We are learning many git command
+### We are learning many git command
                     
 Commands  | Descriptions
 ------------- | -------------
@@ -37,6 +37,9 @@ git stash drop | Delete stash
 git clean --dry-run | Show files for clean
 git clean -f | Execute clean file
 
-###More information
+### More information about Git
 
 [Hashcode Cris Programming](https://crisprogramming.hashnode.dev/)
+
+### Editor MD
+[Editor MD](https://pandao.github.io/editor.md/en.html)
