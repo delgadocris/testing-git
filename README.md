@@ -27,6 +27,7 @@ git tag -d <name-tag> | Delete tag
 git push origin :refs/tags/<name-tag> | Delete tag in remote repository
 git config --global user.name <name> | Config user name
 git config --global user.email <email> | Config user email
+git config --global --edit | Edit config
 gh auth login | Login again in github
 git show-branch --all | Structure project
 git diff | See difference
