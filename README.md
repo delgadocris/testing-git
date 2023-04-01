@@ -37,6 +37,7 @@ git stash drop | Delete stash
 git stash branch <name-branch> | Create a branch with stash adding
 git clean --dry-run | Show files for clean
 git clean -f | Execute clean file
+git cherry-pick | Cherry
 
 ### More information about Git
 
