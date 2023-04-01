@@ -34,6 +34,7 @@ git rebase <name-branch> | Rebase
 git stash | Save temporal changes
 git stash list | See all stash
 git stash drop | Delete stash
+git stash branch <name-branch> | Create a branch with stash adding
 git clean --dry-run | Show files for clean
 git clean -f | Execute clean file
 
