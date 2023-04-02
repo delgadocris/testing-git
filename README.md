@@ -11,6 +11,7 @@ git init | Init project
 git remote -v  | Name repositories remote
 git add .  | Add changes
 git commit -m #message  | Create commit
+git commit --amend | Overwrite last commit
 git pull origin main | Download changes from remote repository
 git push origin main | Upload changes from remote repository
 git branch #name-branch | Create branch
@@ -40,7 +41,7 @@ git clean --dry-run | Show files for clean
 git clean -f | Execute clean file
 git cherry-pick #ref-commit-other-branch | Merge commit ref from another branch in the branch actual
 git reflog | Show all changes and history
-git reset --hard #ref-commit | Return change to reference commit
+git reset --hard #ref-commit | Return change to reference commit, remenber use push force
 
 ### More information about Git
 
