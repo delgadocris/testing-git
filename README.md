@@ -39,6 +39,8 @@ git stash branch #name-branch | Create a branch with stash adding
 git clean --dry-run | Show files for clean
 git clean -f | Execute clean file
 git cherry-pick #ref-commit-other-branch | Merge commit ref from another branch in the branch actual
+git reflog | Show all changes and history
+git reset --hard #ref-commit | Return change to reference commit
 
 ### More information about Git
 
