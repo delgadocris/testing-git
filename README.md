@@ -6,7 +6,7 @@
                     
 Commands  | Descriptions
 ------------- | -------------
-git clone #url-http-repository | Clone repositori
+git clone #url-http-repository | Clone repository
 git init | Init project
 git remote -v  | Name repositories remote
 git add .  | Add changes
