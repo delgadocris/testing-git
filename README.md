@@ -42,6 +42,18 @@ git clean -f | Execute clean file
 git cherry-pick #ref-commit-other-branch | Merge commit ref from another branch in the branch actual
 git reflog | Show all changes and history
 git reset --hard #ref-commit | Return change to reference commit, remenber use push force
+git grep #word | Search word in the branch
+git grep -c #word | Time appear a word in branches
+git log -S "#word" | Time appear a word in commits
+git shortlog -sn | Count commits by contributor
+git shortlog -sn --all --no-merges | Count commits by contributor no merge
+git config --global alias.stats "shortlog -sn --all --no-merges" | Create alias
+git blame #file | Information changes people
+git blame #file -L1,10 | Information changes people in lines
+git #command --help | command to help
+git branch -r | Show remote branches
+git branch -a | Show all branches
+
 
 ### More information about Git
 
